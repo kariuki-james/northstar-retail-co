@@ -43,7 +43,6 @@
 A task is "Done" when:
 
 - Code is written and passes linting
-- Unit tests are written and passing
 - PR is opened and linked to the Issue
 - At least 1 teammate has approved the PR
 - Board status is moved to "Done"
