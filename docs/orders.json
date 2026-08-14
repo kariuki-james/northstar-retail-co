@@ -1,0 +1,32 @@
+{
+  "orders": [
+    {
+      "id": "ORD-123",
+      "email": "customer1@example.com",
+      "item": "Wireless Headphones",
+      "status": "Shipped - Arriving Tomorrow",
+      "eligibleForReturn": true
+    },
+    {
+      "id": "ORD-456",
+      "email": "customer2@example.com",
+      "item": "Mechanical Keyboard",
+      "status": "Delivered",
+      "eligibleForReturn": true
+    },
+    {
+      "id": "ORD-789",
+      "email": "customer3@example.com",
+      "item": "USB-C Cable",
+      "status": "Processing",
+      "eligibleForReturn": false
+    },
+    {
+      "id": "ORD-987",
+      "email": "customer4@example.com",
+      "item": "Laptop Bag",
+      "status": "Shipped - Arriving Tomorrow",
+      "eligibleForReturn": false
+    }
+  ]
+}
