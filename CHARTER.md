@@ -6,7 +6,7 @@
 | -------------- | ------------------ | -------- |
 | James Kariuki  | Team Admin         | EAT      |
 | Anne Kahenya   | Order Status Lead  | EAT      |
-| Muteti Gregory | Returns Lead       | EAT      |
+| Mureti Gregory | Returns Lead       | EAT      |
 | Gift Mutiso    | Styling Lead       | EAT      |
 | Claudia Wangui | Documentation Lead | EAT      |
 
