@@ -16,7 +16,7 @@ This repository contains the minimum viable product (MVP) for Northstar Retail C
 ## File Structure
 
 ```text
- .
+.
 ├── docs/
 │   ├── index.html                  # Main navigation dashboard
 │   ├── orders.html                 # Order status checking interface
@@ -24,6 +24,7 @@ This repository contains the minimum viable product (MVP) for Northstar Retail C
 │   ├── styles.css                  # Global stylesheet
 │   ├── main.js                     # Core CRUD and UI logic
 │   └── orders.json                 # Mock database for sprint testing
+├── CHARTER.md
 ├── RELEASE_NOTES.md                # Handoff documentation
 └── README.md
 ```

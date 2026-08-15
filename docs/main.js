@@ -18,6 +18,33 @@ function showResult(message, isSuccess) {
   resultDiv.innerHTML = message;
 }
 
+// Logic for orders.html
+const orderForm = document.getElementById("orderForm");
+if (orderForm) {
+  orderForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const inputId = document
+      .getElementById("orderId")
+      .value.trim()
+      .toUpperCase();
+
+    const orders = await fetchOrders();
+    const order = orders.find((o) => o.id === inputId);
+
+    if (order) {
+      showResult(
+        `<strong>Item:</strong> ${order.item}<br><strong>Current Status:</strong> ${order.status}`,
+        true,
+      );
+    } else {
+      showResult(
+        `Order <strong>${inputId}</strong> not found. Please check your ID and try again.`,
+        false,
+      );
+    }
+  });
+}
+
 // Logic for returns.html
 const returnForm = document.getElementById("returnForm");
 if (returnForm) {
