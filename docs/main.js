@@ -17,6 +17,7 @@ function showResult(message, isSuccess) {
   resultDiv.className = isSuccess ? "success" : "error";
   resultDiv.innerHTML = message;
 }
+
 // Logic for returns.html
 const returnForm = document.getElementById("returnForm");
 if (returnForm) {
