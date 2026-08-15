@@ -12,7 +12,7 @@
 
 ## Communication Rules
 
-- **Primary channel:** WhatsApp
+- **Primary channel:** WhatsApp and Google Meet
 - **Response time:** Within 4 hours during working hours (09:00–18:00 EAT)
 - **Daily sync:** 15-min standup at 10:00 EAT via video call
 - **Escalation:** If no response within 24 hrs, raise in next standup
