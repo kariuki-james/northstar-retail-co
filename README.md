@@ -18,15 +18,15 @@ This repository contains the minimum viable product (MVP) for Northstar Retail C
 ```text
 .
 ├── docs/
-│   ├── index.html                  # Main navigation dashboard
-│   ├── orders.html                 # Order status checking interface
-│   ├── returns.html                # Return eligibility & processing interface
-│   ├── styles.css                  # Global stylesheet
-│   ├── main.js                     # Core CRUD and UI logic
-│   └── orders.json                 # Mock database for sprint testing
-├── CHARTER.md
-├── RELEASE_NOTES.md                # Handoff documentation
-└── README.md
+│   ├── index.html        # Main navigation dashboard
+│   ├── orders.html       # Order status checking interface
+│   ├── returns.html      # Return eligibility & processing interface
+│   ├── styles.css        # Global stylesheet
+│   ├── main.js           # Core CRUD and UI logic
+│   └── orders.json       # Mock database for sprint testing
+├── CHARTER.md            # Rules on communication, deadlines and conflict resolution
+├── RELEASE_NOTES.md      # Handoff documentation
+└── README.md             # Explains project purpose and instructions on how to use it
 ```
 
 ## How to Run Locally
